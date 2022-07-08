@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "node",
+        "split",
+        "stringutil"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1657054424",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

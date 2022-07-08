@@ -1,0 +1,26 @@
+<channel
+   name="Database in"
+   guid="071F5D1BDFA7B0FD4805D3B8DB344674"
+   description="Take HL7 data and put it in a database."
+   start_automatically="false"
+   logging_level="2"
+   use_message_filter="false">
+   <to_mapper
+      guid="Database_in-To-GQtcKoxasS382c"
+      commit_id="3024194038ecdcff6b12c6b7490509627d6ee6da"
+      commit_comment="Restore Translators: Restoring bulk channels deleted in commit 386dc86389c98e0d97e96c729eada90fbe0df4e7">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="6217AA05D236FE318FCACCD1F9633CAD"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/Users/ctrauer/Documents/Iguana-6_0_3/autoack.vmd"
+      port="2022"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+</channel>

@@ -1,0 +1,26 @@
+<channel
+   name="Lua Basics"
+   guid="B8480CFED54B1DE6CCA1E66DB7A812E7"
+   description="Sandbox for learning the Lua scripting language."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Lua_Basics-To-7pw0e25GtbgXRY"
+      commit_id="3024194038ecdcff6b12c6b7490509627d6ee6da"
+      commit_comment="Restore Translators: Restoring bulk channels deleted in commit 386dc86389c98e0d97e96c729eada90fbe0df4e7">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="0989D04AE6753CF352FAA97434FE5A8E"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="/Users/ctrauer/Documents/Iguana-6_0_3/autoack.vmd"
+      port="2021"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+</channel>
