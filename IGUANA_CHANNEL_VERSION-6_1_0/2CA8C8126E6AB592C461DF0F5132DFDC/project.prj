@@ -1,0 +1,19 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "codemap",
+        "dateparse",
+        "hl7util",
+        "node",
+        "stringutil"
+    ],
+    "OtherDependencies": [
+        "example/demo.vmd"
+    ],
+    "timestamp": "1657290872",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

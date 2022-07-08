@@ -1,0 +1,24 @@
+<channel
+   name="http"
+   guid="6F2826608E9708547AA8DBBB28AF2614"
+   description="hello"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="DEEA9DDD4DECC022A145FAC4047BE315"
+      commit_id="1f5bfeb21666f9feedf28ba6f44735cef9a78672"
+      commit_comment="Restore Translators: Restoring bulk channels deleted in commit a1ad9706e5cdbd61d5af8b2bfcde60ad89b2d12f">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="8854EFEEADA2267D074DB3590465447B"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_http
+      type="mapper"
+      guid="4E20991298B87BE657A9FACD7204B8EA"
+      commit_id="1f5bfeb21666f9feedf28ba6f44735cef9a78672"
+      commit_comment="Restore Translators: Restoring bulk channels deleted in commit a1ad9706e5cdbd61d5af8b2bfcde60ad89b2d12f"
+      mapper_url_path="hi"/>
+</channel>

@@ -1,0 +1,26 @@
+<channel
+   name="Lua Basics_meer"
+   guid="27F5062417C4B52E5D7398F0E5AF6D86"
+   description="test channel"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="2CA8C8126E6AB592C461DF0F5132DFDC"
+      commit_id="1f5bfeb21666f9feedf28ba6f44735cef9a78672"
+      commit_comment="Restore Translators: Restoring bulk channels deleted in commit a1ad9706e5cdbd61d5af8b2bfcde60ad89b2d12f">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="ADB684C1E5D32BC93840F5A57E2BC873"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      original_vmd_path=""
+      ack_vmd_path="${iguana_dir}/autoack.vmd"
+      port="5345"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      keep_vmd_updated="false"
+      ack_style="fast"/>
+</channel>
