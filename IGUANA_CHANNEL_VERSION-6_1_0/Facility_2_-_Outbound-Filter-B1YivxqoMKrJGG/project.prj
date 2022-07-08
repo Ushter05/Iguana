@@ -1,0 +1,19 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "cleanphone",
+        "dateparse",
+        "hl7.zsegment",
+        "hl7.zsegment_copy",
+        "split"
+    ],
+    "OtherDependencies": [
+        "demo.vmd"
+    ],
+    "timestamp": "1657054424",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

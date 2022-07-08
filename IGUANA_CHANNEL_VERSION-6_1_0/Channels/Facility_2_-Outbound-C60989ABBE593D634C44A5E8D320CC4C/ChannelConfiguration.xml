@@ -1,0 +1,20 @@
+<channel
+   name="Facility 2 -Outbound"
+   guid="C60989ABBE593D634C44A5E8D320CC4C"
+   description="HL7 2.6 Data from Facility 1 out to Facility 2"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_file
+      output_dir="/Users/ushter/Desktop/training_iguana/"
+      write_to_separate_file="false"
+      output_single_filename="%Y%m%d.txt"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      sftp_authentication_method="user_password">
+   </to_file>
+   <from_channel/>
+</channel>

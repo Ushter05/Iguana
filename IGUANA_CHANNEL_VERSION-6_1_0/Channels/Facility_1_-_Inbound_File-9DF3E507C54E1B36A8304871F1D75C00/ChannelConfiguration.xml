@@ -1,0 +1,42 @@
+<channel
+   name="Facility 1 - Inbound File"
+   guid="9DF3E507C54E1B36A8304871F1D75C00"
+   description="Imports sample data from File and sends it to Facility 4 channel."
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_file
+      file_type="HL7"
+      prepend_file_info="false"
+      eof_char=""
+      poll_time="10000"
+      max_message_size="15728640"
+      source_dir="/Users/ctrauer/Documents/Training/Online/Beginners/Iguana basics/data/"
+      source_file_extension="txt"
+      archive_processed_files="true"
+      processed_dir="/Users/ctrauer/Documents/Training/Online/Beginners/Iguana basics/data/archive/"
+      error_dir="/Users/ctrauer/Documents/Training/Online/Beginners/Iguana basics/data/error/"
+      ignored_segments=""
+      segment_delimiter="0x0D"
+      message_delimiter="0x0A"
+      minimum_file_age="2"
+      escape_8bit="false"
+      escape_char=" "
+      ftp_username="admin"
+      ftp_password="5rr5r0OB46nAdW+6mjgAtJPcXwdqKvetv3AVbQJg1Xo="
+      sftp_authentication_method="user_password"
+      use_ftp="false"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

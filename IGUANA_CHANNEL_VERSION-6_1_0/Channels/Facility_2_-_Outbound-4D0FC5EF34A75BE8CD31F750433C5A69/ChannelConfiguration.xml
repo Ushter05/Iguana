@@ -1,0 +1,39 @@
+<channel
+   name="Facility 2 - Outbound"
+   guid="4D0FC5EF34A75BE8CD31F750433C5A69"
+   description="HL7 2.6 Data from Facility 1 out to Facility 2"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_file
+      output_dir="/Users/ushter/Desktop/Iguana/iNTERFACEWARE-Iguana/"
+      write_to_separate_file="false"
+      output_single_filename="%Y%m%d.txt"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_server="target.interfaceware.com"
+      ftp_username="casey.trauer@interfaceware.com"
+      ftp_password="F9ZPfEwfCUpyKfQKb71GfP8fCEpmMlFjJhnHOXTYN3I="
+      ftp_path="/home/casey"
+      sftp_authentication_method="user_password"
+      use_ftp="false">
+   </to_file>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="Facility_2_-_Outbound-Filter-B1YivxqoMKrJGG"
+      translator_commit_id="3024194038ecdcff6b12c6b7490509627d6ee6da"
+      translator_commit_comment="Restore Translators: Restoring bulk channels deleted in commit 386dc86389c98e0d97e96c729eada90fbe0df4e7">
+   </message_filter>
+</channel>
